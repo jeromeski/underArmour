@@ -1,0 +1,9 @@
+// GLOBAL HEADER CONTAINER 
+
+.global-header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 95;
+  transition: transform 250ms ease-out;
+}

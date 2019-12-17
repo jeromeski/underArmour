@@ -1,0 +1,18 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Arial,sans-serif;
+  font-size: 16px;
+  position: relative;
+  -webkit-text-size-adjust: none;
+  -webkit-transition: -webkit-transform 300ms;
+  -moz-transition: -moz-transform 300ms;
+  -ms-transition: -ms-transform 300ms;
+  -o-transition: -o-transform 300ms;
+  transition: transform 300ms;
+}

@@ -1,0 +1,144 @@
+@media screen and (min-width: 1200px) {
+  .global-banner {
+    text-align: center;
+    padding: 0;
+    line-height: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .global-banner {
+    font-size: 13px;
+    height: auto;
+    text-align: left;
+    padding: 0;
+  }
+}
+
+.global-banner {
+  position: relative;
+  display: block;
+  background-color: #000;
+  color: #ccc;
+  font-family: Armour_W_Rg,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  height: auto;
+  text-align: center;
+  z-index: 96;
+  padding: 5px 0;
+}
+
+// GLOBAL PROMO
+
+@media screen and (min-width: 768px) {
+  .global-promo {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+.global-promo {
+  display: block;
+  // padding: 0 20px;
+  overflow: hidden;
+  line-height: 18px;
+}
+
+.global-promo p {
+  margin: 0;
+}
+
+// GLOBAL PROMO WRAPPER
+
+.global-promo-wrapper {
+  min-height: 30px;
+}
+
+// GLOBAL UTILITY
+
+.global-utility {
+  position: absolute;
+  right: 0;
+  display: flex !important;
+  align-items: center !important;
+}
+
+@media screen and (min-width: 768px) {
+  .global-utility {
+    display: block;
+  }
+}
+
+// .global-utility {
+//   display: none;
+//   float: right;
+//   line-height: 30px;
+//   white-space: nowrap;
+// }
+
+// GLOBAL UTILITY REGION 
+
+.global-utility-region {
+  display: inline-block;
+  // margin-right: 20px;
+  height: 30px;
+}
+
+// MENU UTILITY USER
+
+@media screen and (min-width: 992px) {
+  .menu-utility-user {
+    margin-right: 15px;
+  }
+}
+
+.menu-utility-user {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.menu-utility-user > * {
+  margin-right: 2rem;
+}
+
+.menu-utility-user a {
+  color: white;
+  text-decoration: none;
+}
+
+// FLAG
+
+.flag-select {
+  padding: 0;
+  
+}
+
+.flag-select .country-flag .country-label {
+  color: #ccc;
+}
+
+.flag-select .arrow-down {
+  color: #ccc;
+}
+
+.flag-select .flag-options {
+  border-radius: none;
+}
+
+.flag-select .selected--flag--option {
+  font-size: 1rem !important;
+  margin-right: 1rem !important;
+  padding: 0;
+}
+
+.flag-select .arrow-down {
+  color: white !important;
+  padding: 2px;
+}
+
+
+.flag-select .flag-option .country-label {
+  color: black;
+}
